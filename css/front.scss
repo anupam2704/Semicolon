@@ -1,0 +1,132 @@
+@mixin rajdhani-regular {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+@mixin rajdhani-semibold {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+@mixin rajdhani-bold {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
+
+@mixin source-regular {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+@mixin source-semibold {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+@mixin source-bold {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+body, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.section-header{
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    position: fixed;
+    width: 100%;
+    top: 0;
+    .header-fixed{        
+        box-sizing: border-box;
+        min-height: 100px;
+        padding: 0px 30px 0px 30px;       
+        .site-logo{ 
+           float: left;      
+            img{
+                width: 290px;
+                height: 96px;
+                background-size: cover;
+            }
+        }
+        .head-tabs{
+            float: right;
+            color:	#666666;
+            .tabs{
+                box-sizing: border-box;
+                border-bottom: 2px solid transparent;
+                padding: 37px 20px 36px 25px;                
+                display: inline-block;
+                @include rajdhani-regular();
+                font-size: 22px;
+                cursor: pointer;
+            }
+            .tabs:hover{                
+                color: whitesmoke;                 
+                border-bottom-color: snow; 
+                background-color: #a7d5f6;           
+            }
+                  
+        }
+    }
+}
+.section-added{
+    margin-top: 100px;
+    background-color: cyan;
+    .click-area{
+        margin: auto;
+        h4.text-top{
+            text-align: center;
+            font-family: 'Felix Titling', fantasy;
+            font-size: 40px;
+            padding: 20px 0px 10px 0px;
+            span{
+                @include source-semibold();
+            }
+        }
+        .semicolon-click{
+            padding: 10px 0px 22px 0px;
+            .semicolon-holder{
+                box-sizing: border-box;
+                background-color: red;
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                border-color: 1px solid black;
+                margin: 0 auto;
+                padding: 20px 0px 0px 54px;
+                font-size: 80px;
+                font-weight: bold;
+                font-family: MONOSPACE;            
+            }
+        }
+        .counter{
+            text-align: center;
+            padding: 4px;
+            font-size: 20px;
+            font-family: monospace;
+            background-color: blueviolet;
+        }
+        h6{         
+            padding: 5px;   
+            text-align: center;
+            font-family: monospace;
+            background-color: #83a4d4;
+            font-size: 20px;
+        }
+    }
+}
+.section-story{
+    h2{
+        @include rajdhani-semibold();
+        font-size: 36px;
+        padding: 6px;
+        background-color: #b6fbff;
+        text-align: center;
+    }
+    p{
+        @include source-regular();
+        font-size: 20px;
+        text-align: center;
+        background-color: gold;
+        padding: 10px 10px;
+    }
+
+}
