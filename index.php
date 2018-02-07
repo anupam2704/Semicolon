@@ -51,32 +51,62 @@
     <div class="tabs-wrapper">
         <div class="high-tabs">
             <div class="tab-content">
-                Semicolon <br> More to life!
+                <div class="tab-icon">                    
+                    <i class="fa fa-angle-double-up"></i>
+                </div>
+                <div class="tab-title">
+                    Semicolon.org
+                </div>
             </div>            
         </div>
         <div class="high-tabs">
             <div class="tab-content">
-                Semicolon <br> More to life!
+                <div class="tab-icon">                    
+                    <i class="fa fa-book"></i>
+                </div>
+                <div class="tab-title">
+                    The Talking Diary
+                </div>
+            </div>
+        </div>
+        <div class="high-tabs">       
+            <div class="tab-content">
+                <div class="tab-icon">                    
+                    <i class="fa fa-edit"></i>
+                </div>
+                <div class="tab-title">
+                    Our Blogs
+                </div>
+            </div>            
+        </div>
+        <div class="high-tabs">
+            <div class="tab-content">
+                <div class="tab-icon">                    
+                    <i class="fa fa-certificate"></i>
+                </div>
+                <div class="tab-title">
+                    Aarambh
+                </div>
             </div>
         </div>
         <div class="high-tabs">
             <div class="tab-content">
-                Semicolon <br> More to life!
+                <div class="tab-icon">                    
+                    <i class="fa fa-comment"></i>
+                </div>
+                <div class="tab-title">
+                    Depression - A taboo?
+                </div>
             </div>            
         </div>
         <div class="high-tabs">
             <div class="tab-content">
-                Semicolon <br> More to life!
-            </div>
-        </div>
-        <div class="high-tabs">
-            <div class="tab-content">
-                Semicolon <br> More to life!
-            </div>            
-        </div>
-        <div class="high-tabs">
-            <div class="tab-content">
-                Semicolon <br> More to life!
+                <div class="tab-icon">                    
+                    <i class="fa fa-drupal"></i>
+                </div>
+                <div class="tab-title">
+                    Haunted Corner
+                </div>
             </div>
         </div>        
     </div>

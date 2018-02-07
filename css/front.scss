@@ -173,29 +173,70 @@ body, h1, h2, h3, h4, h5, h6, p{
             float: left;
             width: 33.3%;
             box-sizing: border-box;                                                          
-            .tab-content{                
+            .tab-content{   
+                padding: 20px;             
                 min-height: 200px; 
                 background-color: #fff;
+                box-sizing: border-box;
+                cursor: pointer;
+                .tab-icon{                   
+                    color:#6495ED;
+                    .fa{
+                        font-size: 40px;
+                    }
+                }  
+                .tab-title{
+                    text-transform: uppercase;
+                    color: #414141;
+                    font-family: monospace;
+                    font-size: 20px;
+                    padding-top: 10px;
+                }              
             } 
+        }
+        .tab-content:hover{
+            .tab-icon{
+                color: #414141;
+            }
+            .tab-title{
+                color: #6495ED;
+            }
         }
     }
         
 }
 .section-footer{
+    background-color: gray;
     .footer{
-        min-height: 100px;
-        background-color:gray;
-        width:100%;
+        padding: 40px 80px 0px 80px;
+        min-height: 100px;                  
         .footer-icon{
-            font-size: 40px;
-            float:right;
-            
-            .font-aw{
-                display:inline-block;
-            }
-        
-        
+            overflow: hidden;
+            .icon-container{
+                font-size: 30px;  
+                float: right;  
+                padding-bottom: 15px;                                      
+                .font-aw{
+                    display:inline-block;
+                    padding-right: 15px;  
+                    cursor: pointer;                 
+                }
+                .font-aw:last-child{
+                    padding-right: 0px;
+                } 
+                .fb:hover{
+                    color:#3b5998;
+                }
+                .twitt:hover{
+                    color: #55acee;
+                }
+                .insta:hover{
+                    color: #8a3ab9;
+                }
+            }                           
         }
-    
+        .copyright{
+            float: left;
+        }              
     }
 }
